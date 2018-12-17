@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAI;EACF,gBAAgB,EAAC,GAAG;;AAItB,IAAI;EACH,SAAS,EAAC,IAAe;EACzB,UAAyB,EAAC,aAAa",
+"sources": ["../sass/sever.scss"],
+"names": [],
+"file": "sever.css"
+}

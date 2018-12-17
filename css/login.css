@@ -1,0 +1,101 @@
+
+@charset "utf-8";
+.login{
+	background: url(../img/cityBackg.jpg)  no-repeat;
+	width: 100%;
+	min-height:654px;
+	background-size: cover;
+	padding-top:20px;
+
+}
+.login_content{
+	width:1160px;
+	margin:auto;
+    position: relative;
+}
+.login_form{
+	padding:35px 30px;
+	position: absolute;
+    float: right;
+    width:400px;
+    height:475px;
+    border-radius:4px;
+    background:#fff;
+    right:20%;
+    box-sizing: border-box;
+
+}
+.form legend{
+	text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 25px;
+}
+.form input{
+	width:340px;
+	display:inline-block;
+	height:40px;
+    padding: 6px 12px;
+    background-color: #f3f4f4;
+    border: 1px solid #ebeced;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.error{
+	font-size:12px;
+	color:#fc583d; 
+	margin-bottom:18px;
+	display: none; 
+}
+.form button{
+	width:340px;
+	height:44px;
+	text-align: center;
+	color:#fff;
+	background-color:#fe6d00;
+	font-size: 16px; 
+	margin-bottom: 18px;
+	line-height:44px;
+	border:none;
+
+}
+.forgetP a{
+	float:left;
+	font-size: 14px;
+	color:#999;
+}
+.newHolder a{
+	float:right;
+	font-size: 14px;
+	color:#ff7000;
+	margin-bottom: 35px;
+}
+.networks h2::before,.networks h2::after{
+	content:"";
+    display:inline-block;
+    width:60px;
+    height:1px;
+    background: #ddd;
+    vertical-align:middle;
+}
+
+.networks h2::before{
+	margin-right:20px; 
+}
+.networks h2::after{
+	margin-left: 20px;
+}
+.networks h2{
+	font-size: 14px;
+	color:#999;
+	font-weight:100;
+	clear:both;
+	text-align:center;
+	margin-bottom:30px;
+}
+.iconImg{
+	text-align: center;
+}
+.iconImg a{
+	margin:0 18px;
+}

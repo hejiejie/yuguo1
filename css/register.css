@@ -1,0 +1,144 @@
+@charset "utf-8";
+.register{
+	background-color: #f3f4f4;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 62px;
+
+}
+.register_content{
+	width: 1000px;
+	background-color:#fff;
+	margin:0 auto;
+	padding-bottom:80px;
+
+}
+.register_header{
+	height:60px;
+    padding:30px 30px 0;
+    border-bottom: 1px solid #ebeced;
+    box-sizing: border-box;
+}
+
+.register_header h2{
+	font-size: 16px;
+    color: #333;
+	font-color:#333333; 
+	position:relative;
+	float:left;
+}
+.register_header  h2::after {
+    position: absolute;
+    bottom: -8px;
+    content: "";
+    display:block;
+    width: 80px;
+    height:2px;
+    background: #fe6d00;
+}
+.register_header a {
+	float:right;
+    font-size: 14px;
+    color: #ff7000;
+}
+.register_form{
+	padding:30px 30px 0;
+	font-size: 14px;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+.register_form li{
+    margin:0 auto ;
+    max-width:340px;
+    overflow: hidden;
+    /*position:relative;*/
+    margin-bottom: 20px;
+    /*border: 1px solid #ff7000;*/
+}
+.register_form li input{
+    height:40px;
+    padding:6px 12px;
+    background-color: #f3f4f4;
+    border:1px solid #ebeced;
+    box-sizing:border-box;
+    width:100%;
+}
+.register_form .error1{
+	color: #fc583d;
+    font-size:12px;
+    margin-top: 12px;
+    display: none;
+    /*float:left;*/
+    /*position:absolute;
+    left:20px;
+    top:20px;*/
+}
+
+.register_form .imgToken{
+    float:right;
+    height:40px;
+    width:110px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.register_form .register_img{
+  width:210px;
+  float:left;
+}
+.register_form .error2{
+    float:left;
+    width:340px;
+}
+ .register_form .send_verifycode{
+    float: right;
+    width: 110px;
+    height: 40px;
+    border: 1px solid #fe6d00;
+    line-height: 40px;
+    text-align: center;
+    color: #fe6d00;
+    box-sizing:border-box;
+}
+.register_form .protocol{
+    font-size: 18px;
+    width:14px;
+    height:14px;
+    float:left;
+    vertical-align: middle;
+    display: inline-block;
+
+ }
+.register_form .agreement{
+    float:left;
+    line-height:12px;
+    font-size: 12px;
+ }
+ .register_form .agreement a{
+    color: #fe6d00;
+ }
+  .register_form .agreement_div{
+    margin-top: 30px;
+    margin-bottom:30px;
+ }
+ .agreement {
+    display: block;
+    padding-left: 12px;
+    color: #666;
+ 
+ }
+ .register_form button{
+    width:340px;
+    height:44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background: #fe6d00;
+    border-radius: 3px;
+    border:none;
+    display: block;
+ }
+ .error1{
+ /*	display: none;*/
+ }
+

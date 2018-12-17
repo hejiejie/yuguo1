@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="css/shoppingCar.css"/>
+</head>
+<body>
+<!-- 导航栏头部 -->
+ <div class="header-top">
+ 	<div class="header-top-cont">
+ 		<div class="header-top-left">
+ 			<a href="#" target="_blank">雨果网</a>
+ 			<a href="#" target="_blank">在线客服</a>
+ 		</div>
+ 		<div class="header-top-rig">
+ 			<a href="#" target="_blank">立即登录</a>
+ 			<a href="#" target="_blank">零成本入驻</a>
+ 		</div>
+ 	</div>
+ </div>
+ <!-- 导航栏底部 -->
+ <div class="header-bottom">
+ 	<div class="header-bottom-cont">
+ 		<div class="header-bottom-upper clear">
+ 			<div class="header-logo">
+ 				<div class="header-logo-img">
+ 					<a href="#"><img src="img/ccee-logo.png"></a>
+ 				</div>
+ 				<div class="header-logo-cont">
+ 					<h2>跨境电商智能选品平台</h2>
+ 					<p>帮卖家找到好产品</p>
+ 				</div>
+ 			</div>
+ 			<div class="header-search-box">
+ 				<input class="header-search" type="text" placeholder="请输入关键词"/>
+ 				<a href="#">
+ 					<i class="iconfont icon-sousu"></i>
+ 				</a>
+ 				<ul class="sug-init">
+ 					<li class="sug-init-title"><a href="#">大家都在搜:</a></li>
+ 					<li class="sug-init-item"><a href="#">爆款</a></li>
+ 					<li class="sug-init-item"><a href="#">亚马逊</a></li>
+ 					<li class="sug-init-item"><a href="#">热销</a></li>
+ 					<li class="sug-init-item"><a href="#">欧美</a></li>
+ 					<li class="sug-init-item"><a href="#">户外</a></li>
+ 					<li class="sug-init-item"><a href="#">LED</a></li>
+ 					<li class="sug-init-item"><a href="#">瑜伽</a></li>
+ 					<li class="sug-init-item"><a href="#">圣诞节</a></li>
+ 					<li class="sug-init-item"><a href="#">运动户外</a></li>
+ 				</ul>
+ 			</div>
+ 		</div>
+ 		<div class="header-nav-wrap">
+ 			<ul class="header-nav clear">
+ 				<li class="header-nav-item active"><a href="#">首页</a></li>
+ 				<li class="header-nav-item"><a href="#">服装配饰</a></li>
+ 				<li class="header-nav-item"><a href="#">电子</a></li>
+ 				<li class="header-nav-item"><a href="#">运动户外</a></li>
+ 				<li class="header-nav-item"><a href="#">家具家电</a></li>
+ 				<li class="header-nav-item"><a href="#">鞋包</a></li>
+ 				<li class="header-nav-item"><a href="#">母婴玩具</a></li>
+ 				<li class="header-nav-item"><a href="#">美妆个护</a></li>
+ 				<li class="header-nav-item"><a href="#">选品头条</a></li>
+ 				<li class="header-nav-item"><a href="#">视屏中心</a></li>
+ 				<li class="header-nav-item header-nav-last">
+ 					<a href="#">选品大会</a>
+ 					<img src="img/baoming.jpg">
+ 				</li>
+ 			</ul>
+ 		</div>
+ 	</div>
+ </div>
+
+  <div class="sum"></div>
+    <div class="goodsCart_out">
+        <div class="goodsCart">
+            <div class="goodsC_t">
+                <div class="checkAll">
+                    <input type="checkbox" class="check">
+                    <span>全选</span>
+                </div>
+                <div class="goods_Name">
+                    <span>商品名称</span>
+                </div>
+                <div class="goods_Price">
+                    <span>单价</span>
+                </div>
+                <div class="goods_Num">
+                    <span>数量</span>
+                </div>
+                <div class="goods_Total">
+                    <span>小计</span>
+                </div>
+                <div class="goods_Do">
+                    <span>操作</span>
+                </div>
+            </div>
+            <!--下面的盒子要动态创建-->
+            <!--<div class="goodsC_b">-->
+                <!--<div class="onecheck">-->
+                    <!--<input type="checkbox" class="dancheck">-->
+                <!--</div>-->
+                <!--<div class="createI_P">-->
+                    <!--<img src="../img1/mi1.jpg" alt=""/>-->
+                    <!--<span class="Exp_Span">小米8青春版</span>-->
+                    <!--<span>4G+64G</span>-->
+                <!--</div>-->
+                <!--<div class="create_Price">-->
+                    <!--<span class="Price_Span">1399</span>-->
+                <!--</div>-->
+                <!--<div class="create_Num">-->
+                    <!--<span class="reduce">-</span>-->
+                    <!--<span>1</span>-->
+                    <!--<span class="add">+</span>-->
+                <!--</div>-->
+                <!--<div class="create_Total">-->
+                    <!--<span class="all_price">1399</span>-->
+                <!--</div>-->
+                <!--<div class="create_Do">-->
+                    <!--<span class="remove_Do">×</span>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <div class="computer_out">
+        <div class="computer">
+            <div class="zongji">
+                <span class="oneSpan">合计</span><span class="price_com">0</span>
+
+            </div>
+            <div class="goods_n">
+                <p>总计<span class="num_Span">0</span>件</p>
+            </div>
+        </div>
+    </div>
+ <!-- footer部分 -->
+<div class="footer-wrap">
+	<div class="footer-cont">
+		<div class="footer-item-wrap clear">
+			<div class="footer-item clear">
+				<div class="footer-img"><img src="img/shoppingfooter1.jpg"></div>
+				<div class="footer-des">
+					<div>品质保障</div>
+					<div>材质符合出口要求，深度验厂报告</div>
+				</div>
+			</div>
+			<div class="footer-item">
+				<div class="footer-img"><img src="img/shoppingfooter1.jpg"></div>
+				<div class="footer-des">
+					<div>品质保障</div>
+					<div>材质符合出口要求，深度验厂报告</div>
+				</div>
+			</div>
+			<div class="footer-item">
+				<div class="footer-img"><img src="img/shoppingfooter1.jpg"></div>
+				<div class="footer-des">
+					<div>品质保障</div>
+					<div>材质符合出口要求，深度验厂报告</div>
+				</div>
+			</div>
+			<div class="footer-item">
+				<div class="footer-img"><img src="img/shoppingfooter1.jpg"></div>
+				<div class="footer-des">
+					<div>品质保障</div>
+					<div>材质符合出口要求，深度验厂报告</div>
+				</div>
+			</div>
+		</div>
+		<div class="footnote">
+			<div>©2013 雨果网 闽ICP备11004599号-1</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/shoppingList.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
